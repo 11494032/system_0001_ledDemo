@@ -483,6 +483,10 @@ public final class SystemServer {
             Slog.i(TAG, "Vibrator Service");
             vibrator = new VibratorService(context);
             ServiceManager.addService("vibrator", vibrator);
+			
+			Slog.i(TAG, "Led Service");
+      
+            ServiceManager.addService("led", new LedService() );
 
             Slog.i(TAG, "Consumer IR Service");
             consumerIr = new ConsumerIrService(context);

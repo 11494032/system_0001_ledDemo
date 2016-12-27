@@ -10,4 +10,5 @@
 5.	frameworks/base/services/core/Android.mk 无需修改
 
 6. SystemServer.java (frameworks/base/services/java/com/android/server)
-
+	+	Slog.i(TAG, "Led Service");
+        ServiceManager.addService("led", new LedService() );
