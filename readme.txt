@@ -8,3 +8,6 @@
 4. LedSevice.java
 	frameworks/base/services/core/java/com/android/server
 5.	frameworks/base/services/core/Android.mk 无需修改
+
+6. SystemServer.java (frameworks/base/services/java/com/android/server)
+
